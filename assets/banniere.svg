@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-labelledby="t d">
+<title id="t">Talaria</title>
+<desc id="d">Talabot, le robot assistant de Talaria, vole à côté du nom du projet et d'une toile de réseau.</desc>
+<defs>
+<radialGradient id="g" cx="18%" cy="50%" r="80%"><stop offset="0" stop-color="#1c2233"/><stop offset="1" stop-color="#0b0d12"/></radialGradient>
+<pattern id="p" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".06"/></pattern>
+<clipPath id="c"><rect width="880" height="250" rx="18"/></clipPath>
+</defs>
+<style>
+.shell{fill:#151925;stroke:#e3cea1;stroke-width:1.4}.shine{fill:none;stroke:rgba(255,255,255,.28);stroke-width:2;stroke-linecap:round}.visor{fill:#05070c;stroke:rgba(255,255,255,.08)}.metal{fill:#2a3040;stroke:#685c44}.ear,.hand{fill:#d9bd82}.hand{stroke:#0b0d12}.antenna{fill:none;stroke:#e4d1a8;stroke-width:1.6;stroke-linecap:round}.core{fill:#fbf0d2;filter:drop-shadow(0 0 4px #d9bd82)}.eye{fill:none;stroke:#fbf0d2;stroke-width:2.6;stroke-linecap:round;filter:drop-shadow(0 0 3px #d9bd82)}.jets{filter:drop-shadow(0 0 5px #d9bd82)}.f1{fill:#d9bd82;opacity:.55}.f2{fill:#fbf0d2;opacity:.85}.f3{fill:#fff}.spark{fill:#fbf0d2;opacity:0}
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.nom{font-size:58px;font-weight:700;fill:#d9bd82;letter-spacing:-1px}
+.phrase{font-size:19px;fill:#d7dae3}
+.metier{font-size:12.5px;font-weight:600;fill:#d9bd82;letter-spacing:2.4px;opacity:.85}
+.lien{stroke:#d9bd82;stroke-width:1.2;opacity:.35;stroke-dasharray:4 6;animation:file 2.4s linear infinite}
+.noeud{fill:#151925;stroke:#d9bd82;stroke-width:1.4;animation:pouls 3.2s ease-in-out infinite}
+.n2{animation-delay:-.8s}.n3{animation-delay:-1.6s}.n4{animation-delay:-2.4s}
+.qg{fill:#d9bd82;filter:drop-shadow(0 0 8px #d9bd82)}
+.robot{animation:vol 3.4s ease-in-out infinite}
+.jet{transform-origin:40px 73px;animation:flamme .16s ease-in-out infinite alternate}.j2{animation-delay:.09s}
+.spark{animation:etincelle 1.05s linear infinite}.s2{animation-delay:.35s}.s3{animation-delay:.18s}.s4{animation-delay:.52s}
+.core{animation:lueur 2.2s ease-in-out infinite}
+.eyes{transform-origin:40px 37px;animation:clin 4.8s infinite}
+.hl{animation:main 2.6s ease-in-out infinite}.hr{animation:main 2.6s ease-in-out -1.3s infinite}
+.apparait{opacity:0;animation:entree .9s ease-out forwards}.a2{animation-delay:.25s}.a3{animation-delay:.5s}
+@keyframes vol{50%{transform:translateY(-9px)}}
+@keyframes flamme{from{transform:scaleY(.82) scaleX(1.04)}to{transform:scaleY(1.12) scaleX(.96)}}
+@keyframes etincelle{0%{opacity:.95;transform:translate(0,-8px)}100%{opacity:0;transform:translate(2px,16px) scale(.4)}}
+@keyframes lueur{50%{opacity:.55}}
+@keyframes clin{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+@keyframes main{50%{transform:translateY(-2.5px)}}
+@keyframes file{to{stroke-dashoffset:-20}}
+@keyframes pouls{50%{opacity:.55}}
+@keyframes entree{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.apparait{opacity:1}}
+</style>
+<g clip-path="url(#c)">
+<rect width="880" height="250" fill="url(#g)"/><rect width="880" height="250" fill="url(#p)"/>
+<g>
+<path class="lien" d="M742 122L690 62M742 122L815 70M742 122L838 150M742 122L772 205M742 122L668 178"/>
+<circle class="noeud" cx="690" cy="62" r="11"/><circle class="noeud n2" cx="815" cy="70" r="15"/><circle class="noeud n3" cx="838" cy="150" r="9"/><circle class="noeud n4" cx="772" cy="205" r="13"/><circle class="noeud n2" cx="668" cy="178" r="8"/>
+<circle class="qg" cx="742" cy="122" r="17"/>
+</g>
+<g transform="translate(58 26) scale(1.95)"><g class="robot"><g class="jets">
+  <g class="jet"><path class="f1" d="M21 73C20.500 82 24 90 25.500 97C27 90 30.500 82 30 73Z"/><path class="f2" d="M22.500 73C22.300 80 24.500 86 25.500 91C26.500 86 28.700 80 28.500 73Z"/><path class="f3" d="M23.900 73C23.900 78 25 81 25.500 84C26 81 27.100 78 27.100 73Z"/></g>
+  <g class="jet j2"><path class="f1" d="M50 73C49.500 82 53 90 54.500 97C56 90 59.500 82 59 73Z"/><path class="f2" d="M51.500 73C51.300 80 53.500 86 54.500 91C55.500 86 57.700 80 57.500 73Z"/><path class="f3" d="M52.900 73C52.900 78 54 81 54.500 84C55 81 56.100 78 56.100 73Z"/></g>
+  <circle class="spark" cx="23" cy="86" r="1.100"/><circle class="spark s2" cx="28" cy="86" r="1.100"/><circle class="spark s3" cx="52" cy="86" r="1.100"/><circle class="spark s4" cx="57" cy="86" r="1.100"/>
+</g>
+<rect class="metal" x="21" y="64" width="9" height="10" rx="2.500"/><rect class="metal" x="50" y="64" width="9" height="10" rx="2.500"/>
+<rect class="shell" x="27" y="56" width="26" height="19" rx="8"/><circle class="core" cx="40" cy="65.500" r="3.400"/>
+<circle class="hand hl" cx="15" cy="66" r="4"/><circle class="hand hr" cx="65" cy="66" r="4"/>
+<path class="antenna" d="M40 17V9"/><circle class="core" cx="40" cy="7" r="3.200"/>
+<rect class="ear" x="8" y="29" width="6" height="14" rx="3"/><rect class="ear" x="66" y="29" width="6" height="14" rx="3"/>
+<rect class="shell" x="12" y="16" width="56" height="42" rx="19"/><path class="shine" d="M22 24C28 19 40 18 50 20"/>
+<rect class="visor" x="19" y="25" width="42" height="24" rx="12"/>
+<g class="eyes"><path class="eye" d="M26.500 40q4.500-7 9 0M44.500 40q4.500-7 9 0"/></g></g></g>
+<text class="nom apparait" x="250" y="112">Talaria</text>
+<text class="phrase apparait a2" x="252" y="150">Un réseau privé, où l'on entre par cooptation.</text>
+<text class="metier apparait a3" x="252" y="188">FRONT-END  ·  DESIGN UI/UX</text>
+</g>
+</svg>
