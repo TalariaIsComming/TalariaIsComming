@@ -1,6 +1,6 @@
-<h1 align="center">Talaria</h1>
-
-<p align="center"><strong>Un réseau privé d'indépendants et d'entreprises, où l'on entre par cooptation.</strong></p>
+<p align="center">
+  <img src="assets/banniere.svg" alt="Talaria : un réseau privé d'indépendants et d'entreprises, où l'on entre par cooptation. Talabot, son robot assistant, vole à côté d'une toile de réseau." width="880">
+</p>
 
 <p align="center">
   <a href="https://github.com/TalariaIsComming/Talaria-Public"><img src="https://raw.githubusercontent.com/TalariaIsComming/Talaria-Public/main/captures/toile.jpg" alt="La toile de Talaria : le QG au centre, les réseaux autour" width="820"></a>
@@ -14,6 +14,15 @@
 - Des **réseaux** qui ont chacun leur identité, tirée de leur secteur d'activité
 - Des **projets** qui montrent ce qui leur manque, et un **Shop** entre membres
 - **Talabot**, un robot assistant aux couleurs de votre réseau
+
+## Ce que je sais faire
+
+| | |
+|---|---|
+| **Front-end** | React, Next.js, TypeScript, Astro. Des interfaces rapides, adaptatives et accessibles. |
+| **Design UI/UX** | Identité visuelle, système de design, parcours utilisateur, maquettes interactives. |
+
+Je conçois l'interface et je la code : la même personne tient la cohérence, du premier croquis au dernier pixel.
 
 ## Dépôts
 
