@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150" role="img" aria-labelledby="t d">
+<title id="t">Les outils de Talaria</title>
+<desc id="d">Une ligne de quatre outils : TFBP, disponible en prototype, puis trois outils à venir.</desc>
+<defs><pattern id="p" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".06"/></pattern><clipPath id="c"><rect width="880" height="150" rx="18"/></clipPath></defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;text-anchor:middle}
+.nom{font-size:17px;font-weight:700;fill:#f3eee2}.sous{font-size:12.5px;fill:#a9adba}.etat{font-size:10.5px;font-weight:700;letter-spacing:1.6px}
+.lien{stroke:#d9bd82;stroke-width:2;stroke-dasharray:5 7;opacity:.45;animation:file 1.8s linear infinite}
+.actif{fill:#d9bd82;filter:drop-shadow(0 0 8px #d9bd82);animation:pouls 2.4s ease-in-out infinite}
+.avenir{fill:#151925;stroke:#d9bd82;stroke-width:2;stroke-dasharray:4 5;transform-box:fill-box;transform-origin:center;animation:tourne 14s linear infinite}
+@keyframes file{to{stroke-dashoffset:-24}}@keyframes pouls{50%{opacity:.6}}@keyframes tourne{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#c)"><rect width="880" height="150" fill="#0b0d12"/><rect width="880" height="150" fill="url(#p)"/>
+<path class="lien" d="M134 46H306M354 46H526M574 46H746"/>
+<circle class="actif" cx="110" cy="46" r="16"/><circle class="avenir" cx="330" cy="46" r="16"/><circle class="avenir" cx="550" cy="46" r="16"/><circle class="avenir" cx="770" cy="46" r="16"/>
+<text class="etat" x="110" y="88" fill="#7fcfa6">EN PROTOTYPE</text><text class="nom" x="110" y="110">TFBP</text><text class="sous" x="110" y="130">Prospection</text>
+<text class="etat" x="330" y="88" fill="#d9bd82">À VENIR</text><text class="nom" x="330" y="110">Suivi de projets</text><text class="sous" x="330" y="130">De l'accord à la livraison</text>
+<text class="etat" x="550" y="88" fill="#d9bd82">À VENIR</text><text class="nom" x="550" y="110">Montage d'équipes</text><text class="sous" x="550" y="130">Les bons profils, ensemble</text>
+<text class="etat" x="770" y="88" fill="#d9bd82">À VENIR</text><text class="nom" x="770" y="110">Paiement</text><text class="sous" x="770" y="130">Devis, factures, commissions</text>
+</g></svg>

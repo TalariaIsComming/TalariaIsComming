@@ -4,7 +4,7 @@
 
 <p align="center"><strong>Le réseau privé où les meilleurs indépendants et les entreprises qui les cherchent se retrouvent sur une seule carte.</strong></p>
 
-<p align="center">Sur cooptation · Prototype en développement · <a href="https://github.com/TalariaIsComming/Talaria-Public">Voir la vitrine complète</a></p>
+<p align="center">Sur cooptation · Prototype en développement · <a href="https://github.com/TalariaIsComming/Talaria-Public">La vitrine de Talaria</a> · <a href="https://github.com/TalariaIsComming/TFBP-Public">TFBP, l'outil de prospection</a></p>
 
 > **Ce profil est une vitrine.** Vous y trouvez des captures et des animations de l'interface de Talaria, un visualiseur front encore à l'état de prototype. Aucun code n'est publié : le produit vit dans un dépôt privé. Les personnes, entreprises et logos visibles à l'écran sont inventés pour la démonstration.
 
@@ -76,7 +76,43 @@ Il n'y a pas d'inscription ouverte. Chaque profil garde la trace de qui l'a invi
 | Réseaux, sous-réseaux, groupes, projets | Paiement et commissions |
 | Messagerie, calendrier, questionnaires, badges | Application téléphone complète |
 | Shop, profils, blazes | Mise en production |
-| Talabot, l'assistant qui mène la visite guidée | Un outil de suivi pour les responsables de réseau |
+| Talabot, l'assistant qui mène la visite guidée | TFBP, l'outil de prospection (en prototype) |
+
+## Les outils de Talaria
+
+Le réseau ne suffit pas : il faut aussi de quoi travailler. Talaria s'accompagne d'outils pensés pour ses membres, qui partagent son interface et son assistant, Talabot.
+
+<p align="center">
+  <img src="assets/outils.svg" alt="Les outils de Talaria : TFBP, en prototype, puis le suivi de projets, le montage d'équipes et le paiement, à venir" width="880">
+</p>
+
+### TFBP · Tools For Best Prospection
+
+**Le copilote qui décroche avec toi.** Des leads prêts à appeler, une fiche qui tient sur un écran, et Talabot qui montre quoi dire pendant l'appel.
+
+<p align="center">
+  <a href="https://github.com/TalariaIsComming/TFBP-Public"><img src="https://raw.githubusercontent.com/TalariaIsComming/TFBP-Public/main/captures/appel-profils.jpg" alt="TFBP pendant un appel : la fiche du prospect, la conversation qui s'écrit, et Talabot qui pointe les profils à proposer" width="820"></a>
+</p>
+
+| | |
+|---|---|
+| **Trouve** | Les leads se créent, s'enrichissent et se trient en vert, orange, rouge. |
+| **Appelle** | L'entreprise, son site, ses réseaux et ton interlocuteur sur un seul écran. |
+| **Rebondis** | L'aide s'affiche quand une objection arrive ; Talabot pointe la bonne information. |
+| **Conclus** | Rendez-vous en deux clics, mail de suivi qui s'écrit tout seul. |
+| **Progresse** | Chaque séance se termine par un retour : à corriger, bons points, rendez-vous. |
+
+<p align="center"><a href="https://github.com/TalariaIsComming/TFBP-Public"><strong>Voir la présentation de TFBP, avec le film et la démo →</strong></a></p>
+
+### À venir
+
+| Outil | Ce qu'il fera |
+|---|---|
+| **Suivi de projets** | Suivre une mission de l'accord à la livraison, côté client comme côté indépendant. |
+| **Montage d'équipes** | Réunir les bons profils du réseau autour d'un besoin, en quelques clics. |
+| **Paiement** | Devis, factures et commissions entre membres. |
+
+Ces outils sont à l'étude : leur contenu et leur ordre peuvent changer.
 
 ## L'équipe
 
