@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="880" height="190" role="img" aria-labelledby="t d">
+<title id="t">Comment on entre dans Talaria</title>
+<desc id="d">Trois étapes animées : un membre se porte garant, le responsable du réseau valide, la personne rejoint la toile.</desc>
+<defs>
+<pattern id="p" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".06"/></pattern>
+<clipPath id="c"><rect width="880" height="190" rx="18"/></clipPath>
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;text-anchor:middle}
+.num{font-size:13px;font-weight:700;fill:#0b0d12}
+.titre{font-size:17px;font-weight:700;fill:#f3eee2}
+.sous{font-size:13.5px;fill:#a9adba}
+.rond{fill:#151925;stroke:#d9bd82;stroke-width:2}
+.pastille{fill:#d9bd82}
+.lien{stroke:#d9bd82;stroke-width:2;stroke-dasharray:5 7;opacity:.5;animation:file 1.8s linear infinite}
+.grain{fill:#fbf0d2;filter:drop-shadow(0 0 5px #d9bd82)}
+.g1{animation:va1 4.8s ease-in-out infinite}.g2{animation:va2 4.8s ease-in-out infinite}
+.halo{fill:none;stroke:#d9bd82;stroke-width:2;transform-box:fill-box;transform-origin:center;animation:halo 4.8s ease-out infinite}
+.h2{animation-delay:1.6s}.h3{animation-delay:3.2s}
+@keyframes file{to{stroke-dashoffset:-24}}
+@keyframes va1{0%{transform:translateX(0);opacity:0}5%{opacity:1}30%{transform:translateX(250px);opacity:1}35%,100%{transform:translateX(250px);opacity:0}}
+@keyframes va2{0%,33%{transform:translateX(0);opacity:0}38%{opacity:1}63%{transform:translateX(250px);opacity:1}68%,100%{transform:translateX(250px);opacity:0}}
+@keyframes halo{0%{transform:scale(1);opacity:.8}25%{transform:scale(1.7);opacity:0}100%{transform:scale(1.7);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.grain{display:none}}
+</style>
+<g clip-path="url(#c)">
+<rect width="880" height="190" fill="#0b0d12"/><rect width="880" height="190" fill="url(#p)"/>
+<path class="lien" d="M218 62H402M468 62H652"/>
+<circle class="grain g1" cx="190" cy="62" r="4.5"/><circle class="grain g2" cx="440" cy="62" r="4.5"/>
+<circle class="halo" cx="190" cy="62" r="27"/><circle class="halo h2" cx="440" cy="62" r="27"/><circle class="halo h3" cx="690" cy="62" r="27"/>
+<circle class="rond" cx="190" cy="62" r="27"/><circle class="rond" cx="440" cy="62" r="27"/><circle class="rond" cx="690" cy="62" r="27"/>
+<circle class="pastille" cx="190" cy="62" r="13"/><circle class="pastille" cx="440" cy="62" r="13"/><circle class="pastille" cx="690" cy="62" r="13"/>
+<text class="num" x="190" y="66.500">1</text><text class="num" x="440" y="66.500">2</text><text class="num" x="690" y="66.500">3</text>
+<text class="titre" x="190" y="124">Un membre se porte garant</text><text class="sous" x="190" y="147">Il propose l'invitation et la défend.</text>
+<text class="titre" x="440" y="124">Le responsable valide</text><text class="sous" x="440" y="147">Chaque réseau choisit qui il accueille.</text>
+<text class="titre" x="690" y="124">Vous rejoignez la toile</text><text class="sous" x="690" y="147">Votre profil garde qui vous a invité.</text>
+</g>
+</svg>
